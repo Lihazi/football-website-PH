@@ -192,3 +192,43 @@ header{
     width: 525px;
     height: 410px;
 }
+
+
+/* styles for the footer section */
+
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container img{
+    width: 485px;
+}
+
+.social-icons{
+    display: flex;
+}
+
+.icon i{
+    font-size:20px ;
+    width:35px;
+    height: 35px;
+    color: #969BAB;
+    background-color: #80808040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.footer-container h3{
+    font-size: 24px;
+    font-weight: 400;
+}
