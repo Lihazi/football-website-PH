@@ -330,3 +330,44 @@ header{
 }
 
 }
+
+/* for tablet */
+
+@media only screen and (min-width:426px) and (max-width:768px){
+
+    header{
+        width: 100%;
+    }
+    
+    .header-info{
+        align-items: center;
+        width: 90%;
+        padding: 15px;
+    }
+    
+    .header-title{
+        width: 50%;
+        margin-bottom: 40px;
+        
+    }
+    
+    .header-title h1{
+        font-size: 40px;
+    } 
+    
+    .header-banner{
+        width:50%;
+    
+    }
+    
+    .header-banner img{
+        width: 100%;
+        height: auto;
+    }
+    
+
+    .container,.footer-container{
+        display: none;
+    }
+
+}
