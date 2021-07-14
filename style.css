@@ -307,6 +307,72 @@ h3.team-name-right {
 
 }
 
+
+
+/* styles for the argentina wins section */
+
+.argentina-wins-element{
+    display: flex;
+}
+
+.winning-video{
+    width: 50%;
+}
+
+.winning-video iframe{
+    width: 100%;
+}
+
+.winning-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.winning-text h1{
+    font-size:40px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    color:#0A0826 ;
+    text-align: right;
+}
+
+.winning-text p{
+    margin-bottom: 25px;
+    width: 404px;
+    color: #6C6C6C;
+    text-align: right;
+}
+
+
+.argintina-wins-button{
+    width: 168px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#E02C6D;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.argintina-wins-button span a{
+   text-decoration: none;
+   color: white;
+   margin-right: 10px;
+
+}
+
+.argintina-wins-button i{
+    color: white;
+    font-size: 24px;
+}
+
 /* styles for the footer section */
 
 
@@ -458,7 +524,7 @@ h2.match-date {
     font-size: 15px;
 }
 
-h3.math-stadium {
+h3.match-stadium {
     font-size: 12px;
 }
 
@@ -471,6 +537,35 @@ h3.math-stadium {
 h3.team-name-right {
     font-size: 20px;
 }
+
+.argentina-wins-element{
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto
+}
+
+.winning-video{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.winning-text{
+    width: 80%;
+   align-items: center;
+   margin: auto;
+
+}
+
+.winning-text h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.winning-text p{
+    text-align: center;
+    width: 80%;
+}
+
 
 .footer-container{
     width: 80%;
@@ -597,6 +692,36 @@ h3.math-stadium {
     width: 250px;
     height: 250px;
 }
+
+
+.argentina-wins-element{
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto
+}
+
+.winning-video{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.winning-text{
+    width: 80%;
+   align-items: center;
+   margin: auto;
+
+}
+
+.winning-text h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.winning-text p{
+    text-align: center;
+    width: 80%;
+}
+
 
 
 
