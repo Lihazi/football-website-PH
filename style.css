@@ -491,7 +491,7 @@ h3.team-name-right {
 
 /* for tablet */
 
-@media only screen and (min-width:669px) and (max-width:992px){
+@media only screen and (min-width:669px) and (max-width:1024px){
 
     header{
         width: 100%;
