@@ -257,8 +257,13 @@ header{
 
 .header-title{
     width: 100%;
+    margin-bottom: 40px;
     
 }
+
+.header-title h1{
+    font-size: 36px;
+} 
 
 .header-banner{
     width: 100%;
@@ -270,22 +275,21 @@ header{
     height: auto;
 }
 
-.container,.footer-container{
-    display: none;
-}
-/* 
+
 .container{
     width: 100%;
+    margin-bottom: 0px;
 }
 
 .player-cards{
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1,0.8fr);
+    justify-content: center;
 }
 
 .highlights-match{
     flex-direction: column;
-    
-    
+    width: 80%;
+    margin: 0 auto;
 }
 
 .highlights-info{
@@ -293,14 +297,36 @@ header{
     margin-bottom:30px ;
 }
 
-.highlights-image img{
-    width: 328px;
-    height: 248px;
+.highlights-info h1{
+    font-size: 30px;
 }
 
+.highlights-image {
+    width: 100%;
+}
+.highlights-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.footer-container{
+    width: 80%;
+    margin: 45px auto 155px;
+}
 
 .footer-container img {
     width: 100%;
-} */
+    margin-bottom:50px ;
+}
+
+
+.footer-container h3{
+    font-size: 18px;
+}
 
 }
