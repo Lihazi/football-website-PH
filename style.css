@@ -194,6 +194,86 @@ header{
 }
 
 
+
+/* styles for the upcoming-match section */
+
+
+h1.section-title {
+    text-align: center;
+    font-size: 40px;
+    color: #E02C6D;
+}
+
+.upcoming-match{
+    border-radius: 5px;
+    background-color: #EFF4FD;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.upcoming-match-elements{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:40px;
+}
+
+.left-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-team img{
+    width: 350px;
+    height: 350px;
+}
+
+
+
+
+h3.team-name-left {
+    font-size: 35px;
+}
+
+
+.match-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.match-time-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.match-details h1 {
+    font-size: 50px;
+    color: #E02C6D;
+}
+
+.right-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-team img{
+    width: 330px;
+    height: 330px;
+}
+
+
+
+h3.team-name-right {
+    font-size: 35px;
+
+}
+
 /* styles for the footer section */
 
 
@@ -237,12 +317,18 @@ header{
 
 
 
+
+
+
+
+
+
 /* media queries */
 
 
 /* for mobile */
 
-@media only screen and (max-width:425px){
+@media only screen and (max-width:668px){
 
 header{
     width: 100%;
@@ -286,6 +372,10 @@ header{
     justify-content: center;
 }
 
+.player-card{
+    margin: 0 auto;
+}
+
 .highlights-match{
     flex-direction: column;
     width: 80%;
@@ -314,6 +404,41 @@ header{
     -o-border-radius: 5px;
 }
 
+.upcoming-match-elements {
+    padding: 40px 0;
+}
+
+.left-team img {
+    width: 120px;
+    height: 120px;
+}
+
+h3.team-name-left {
+    font-size: 20px;
+}
+
+.match-details h1 {
+    font-size: 30px;
+}
+
+h2.match-date {
+    font-size: 15px;
+}
+
+h3.math-stadium {
+    font-size: 12px;
+}
+
+
+.right-team img {
+    width: 120px;
+    height: 120px;
+}
+
+h3.team-name-right {
+    font-size: 20px;
+}
+
 .footer-container{
     width: 80%;
     margin: 45px auto 155px;
@@ -333,7 +458,7 @@ header{
 
 /* for tablet */
 
-@media only screen and (min-width:426px) and (max-width:1024px){
+@media only screen and (min-width:669px) and (max-width:992px){
 
     header{
         width: 100%;
@@ -411,6 +536,33 @@ header{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+
+
+.upcoming-match-elements {
+    padding: 40px 0;
+}
+
+.left-team img {
+    width: 250px;
+    height: 250px;
+}
+
+.match-details h1{
+    font-size: 40px;
+}
+
+h2.match-date {
+    font-size: 20px;
+}
+
+h3.math-stadium {
+    font-size: 18px;
+}
+
+.right-team img {
+    width: 250px;
+    height: 250px;
 }
 
 
